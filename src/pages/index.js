@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Text, Box, Image } from "@quarkly/widgets";
+import { Theme, Text, Box, Image, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { StackItem, Stack, Override } from "@quarkly/components";
 import * as Components from "components";
@@ -48,5 +48,8 @@ export default (() => {
 		<Components.GroupCard>
 			<Image width="64px" height="64px" />
 		</Components.GroupCard>
+		<Button>
+			Button
+		</Button>
 	</Theme>;
 });
